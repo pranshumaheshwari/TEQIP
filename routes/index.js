@@ -34,4 +34,8 @@ router.get('/', function(req, res, next) {
    res.render('gallery',{title: 'Gallery'});
  });
 
+router.get('/activity-list', function(req,res){
+  res.render('activity_list',{title: 'Activity List'});
+});
+
 module.exports = router;
