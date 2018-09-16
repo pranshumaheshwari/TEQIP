@@ -30,8 +30,12 @@ router.get('/', function(req, res, next) {
    res.render('contact',{title: 'Contact'});
  });
 
- router.get('/gallery', function(req,res){
-   res.render('gallery',{title: 'Gallery'});
+ router.get('/image-gallery', function(req,res){
+   res.render('image_gallery',{title: 'Gallery'});
+ });
+
+ router.get('/video-gallery', function(req,res){
+   res.render('video_gallery',{title: 'Gallery'});
  });
 
 router.get('/activity-list', function(req,res){
