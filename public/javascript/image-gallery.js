@@ -1,0 +1,8 @@
+$(document).ready(function(){
+  // To add the images
+  let container = $('#images');
+  for(var i=0;i<7;i++){
+    $('#images').append("<div class='row'><div class='col-md-4'><a href='/images/gallery/" + (3*i+1) + ".jpg'><img src='/images/gallery/" + (3*i+1) + ".jpg' class='img-thumbnail' /></a></div><div class='col-md-4'><a href='/images/gallery/" + (3*i+2) + ".jpg'><img src='/images/gallery/" + (3*i+2) + ".jpg' class='img-thumbnail' /></a></div><div class='col-md-4'><a href='/images/gallery/" + (3*i+3) + ".jpg'><img src='/images/gallery/" + (3*i+3) + ".jpg' class='img-thumbnail' /></a></div>");
+  }
+  $('#images').append("<div class='row'><div class='col-md-4'><a href='/images/gallery/22.jpg'><img src='/images/gallery/22.jpg' class='img-thumbnail' /></a></div>");
+});
