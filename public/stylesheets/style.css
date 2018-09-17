@@ -10,7 +10,7 @@ a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 5em;
   font-family: 'Do Hyeon', sans-serif;
   color: #FFF;
 }
@@ -38,6 +38,8 @@ p{
 
 .institute{
   color: #FFF;
+  font-variant: small-caps;
+  font-family: 'Arial';
 }
 
 .jumbotron{
