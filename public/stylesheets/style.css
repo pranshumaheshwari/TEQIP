@@ -32,6 +32,10 @@ p{
    font-family: 'Merienda', cursive;
  }
 
+ hr{
+   border-color: #FFF;
+ }
+
 .institute{
   color: #FFF;
 }
@@ -51,4 +55,42 @@ p{
 
 .dropdown-toggle{
   cursor: pointer;
+}
+
+.white{
+  color: #FFF;
+}
+
+.foot{
+  font-size: 1.1em;
+  font-family: 'Merienda', cursive;
+}
+
+.bottom{
+  margin-bottom: 0!important;
+}
+
+.foot-nav{
+  list-style-type:none;
+  float: right!important;
+}
+
+.foot-nav li{
+  text-align:right;
+  margin-right:20px;
+  margin-bottom:10px;
+  transition:all 0.2s;
+}
+
+.foot-nav li:hover{
+  margin-right: 30px;
+}
+
+.foot-nav li a{
+  color: #FFF;
+}
+
+.foot-nav li a:hover{
+  text-decoration:none;
+  color: #fcd1b5;
 }
