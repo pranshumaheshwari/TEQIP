@@ -1,8 +1,54 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #EDEDED;
 }
 
 a {
   color: #00B7FF;
+  font-family: 'Merienda', cursive;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Do Hyeon', sans-serif;
+  color: #FFF;
+}
+
+h3{
+  font-size: 2em;
+  font-family: 'Gloria Hallelujah', bold;
+  font-weight: bold;
+  color: #4786c1;
+}
+
+p{
+  font-size: 1.5em;
+  font-family: 'Merienda', cursive;
+}
+
+ ol li{
+   font-size: 1.5em;
+   font-family: 'Merienda', cursive;
+ }
+
+.institute{
+  color: #FFF;
+}
+
+.jumbotron{
+  background-color: #43484c!important;
+}
+
+.nav-link{
+  font-size: 1.2em;
+  color: #e88a4c!important;
+}
+
+.navbar-brand{
+  color: #e88a4c!important;
+}
+
+.dropdown-toggle{
+  cursor: pointer;
 }
