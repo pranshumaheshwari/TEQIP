@@ -105,3 +105,8 @@ p{
   text-decoration:none;
   color: #fcd1b5;
 }
+
+.upcoming{
+  border: #44494E solid 2px;
+  background-color: #919199;
+}

@@ -1,5 +1,4 @@
 <% include ./partials/header.ejs %>
-<div class="container">
   <div class="col-sm-9">
     <div id="images">
       <!-- Added images using js -->
@@ -21,7 +20,8 @@
       </div>
     </div>
   </div>
-</div>
+<% include ./partials/upcoming.ejs %>
+
 <script type="text/javascript" src="/javascript/image-gallery.js"></script>
 <script type="text/javascript">
   $("#1").on("click", function() {

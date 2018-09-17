@@ -1,57 +1,56 @@
 <% include ./partials/header.ejs %>
-  <div class="container">
-    <div class="col-sm-9">
-      <div id="slideshow" class="carousel slide " data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#slideshow" data-slide-to="0" class="active"></li>
-          <li data-target="#slideshow" data-slide-to="1"></li>
-          <li data-target="#slideshow" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="/images/gallery/1.jpg" data-toggle="lightbox">
-              <img src="/images/gallery/1.jpg" class="img-fluid d-block w-100">
-            </a>
+      <div class="col-sm-9">
+        <div id="slideshow" class="carousel slide " data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="/images/gallery/1.jpg" data-toggle="lightbox">
+                <img src="/images/gallery/1.jpg" class="img-fluid d-block w-100">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="/images/gallery/2.jpg" data-toggle="lightbox">
+                <img src="/images/gallery/2.jpg" class="img-fluid d-block w-100">
+              </a>
+            </div>
+            <div class="carousel-item">
+              <a href="/images/gallery/3.jpg" data-toggle="lightbox">
+                <img src="/images/gallery/3.jpg" class="img-fluid d-block w-100">
+              </a>
+            </div>
           </div>
-          <div class="carousel-item">
-            <a href="/images/gallery/2.jpg" data-toggle="lightbox">
-              <img src="/images/gallery/2.jpg" class="img-fluid d-block w-100">
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="/images/gallery/3.jpg" data-toggle="lightbox">
-              <img src="/images/gallery/3.jpg" class="img-fluid d-block w-100">
-            </a>
-          </div>
+          <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-        <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <br><br>
+        <h3>Introduction</h3><br>
+        <p class="text-justify">
+          The Project, Third phase of Technical Education Quality Improvement Programme (referred
+          to as TEQIP-III) is fully integrated with the Twelfth Five-year Plan objectives for Technical
+          Education as a key component for improving the quality of Engineering Education in existing
+          institutions with a special consideration for Low Income States and Special Category States
+          (SCS) and support to strengthen few affiliated technical universities to improve their policy,
+          academic and management practices.
+        </p><br>
+        <h3>Vision</h3><br>
+        <p class="text-justify">
+          The centre's primary goal will be dissemination of knowledge (and know-how) to teachers,
+          researchers and students through short-courses, workshops and seminars. The centre will
+          continuously push forward to incubate new teaching and research methodologies that
+          promotes efficiency and innovation in the areas of science and technology. The centre will
+          also promote creation of repositories for various online courses, subjects, manuals and
+          projects.
+        </p><br>
       </div>
-      <br><br>
-      <h3>Introduction</h3><br>
-      <p class="text-justify">
-        The Project, Third phase of Technical Education Quality Improvement Programme (referred
-        to as TEQIP-III) is fully integrated with the Twelfth Five-year Plan objectives for Technical
-        Education as a key component for improving the quality of Engineering Education in existing
-        institutions with a special consideration for Low Income States and Special Category States
-        (SCS) and support to strengthen few affiliated technical universities to improve their policy,
-        academic and management practices.
-      </p><br>
-      <h3>Vision</h3><br>
-      <p class="text-justify">
-        The centre's primary goal will be dissemination of knowledge (and know-how) to teachers,
-        researchers and students through short-courses, workshops and seminars. The centre will
-        continuously push forward to incubate new teaching and research methodologies that
-        promotes efficiency and innovation in the areas of science and technology. The centre will
-        also promote creation of repositories for various online courses, subjects, manuals and
-        projects.
-      </p><br>
-    </div>
-  </div>
+      <% include ./partials/upcoming.ejs %>
 <% include ./partials/footer.ejs %>
