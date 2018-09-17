@@ -45,12 +45,23 @@ p{
 }
 
 .nav-link{
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #e88a4c!important;
+  font-variant: small-caps;
+}
+
+.nav-link:hover{
+  color: #32a323!important;
+  opacity: 0.8;
 }
 
 .navbar-brand{
   color: #e88a4c!important;
+}
+
+.navbar-brand:hover{
+  color: #32a323!important;
+  opacity: 0.8;
 }
 
 .dropdown-toggle{
