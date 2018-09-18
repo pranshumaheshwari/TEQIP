@@ -10,7 +10,7 @@ a {
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 3em;
   font-family: 'Do Hyeon', sans-serif;
   color: #FFF;
 }
@@ -111,4 +111,8 @@ p{
 .upcoming{
   border: #44494E solid 2px;
   background-color: #919199;
+}
+
+.useful-links a{
+  font-size: 1.3em;
 }

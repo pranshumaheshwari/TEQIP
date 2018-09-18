@@ -7,39 +7,43 @@ router.get('/', function(req, res, next) {
 });
 
  router.get('/commitee', function(req,res){
-   res.render('commitee',{title:'Commitee'});
+   res.render('commitee',{title:'Commitee--TEQIP'});
  });
 
  router.get('/quality-circle', function(req,res){
-   res.render('quality_circle',{title: 'Quality Circle'});
+   res.render('quality_circle',{title: 'Quality Circle--TEQIP'});
  });
 
  router.get('/reports', function(req,res){
-   res.render('reports',{title: 'Reports'});
+   res.render('reports',{title: 'Reports--TEQIP'});
  });
 
  router.get('/events', function(req,res){
-   res.render('events',{title: 'Events'});
+   res.render('events',{title: 'Events--TEQIP'});
  });
 
  router.get('/staff', function(req,res){
-   res.render('staff',{title: 'Staff'});
+   res.render('staff',{title: 'Staff--TEQIP'});
  });
 
  router.get('/contact', function(req,res){
-   res.render('contact',{title: 'Contact'});
+   res.render('contact',{title: 'Contact--TEQIP'});
  });
 
  router.get('/image-gallery', function(req,res){
-   res.render('image_gallery',{title: 'Gallery'});
+   res.render('image_gallery',{title: 'Gallery--TEQIP'});
  });
 
  router.get('/video-gallery', function(req,res){
-   res.render('video_gallery',{title: 'Gallery'});
+   res.render('video_gallery',{title: 'Gallery--TEQIP'});
  });
 
 router.get('/activity-list', function(req,res){
-  res.render('activity_list',{title: 'Activity List'});
+  res.render('activity_list',{title: 'Activity List--TEQIP'});
 });
+
+ router.get('/useful-links', function(req,res){
+   res.render('useful-links',{title: 'Useful Links--TEQIP'})
+ });
 
 module.exports = router;
