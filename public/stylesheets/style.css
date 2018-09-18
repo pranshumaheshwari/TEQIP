@@ -116,3 +116,16 @@ p{
 .useful-links a{
   font-size: 1.3em;
 }
+
+.rm-dot{
+  list-style-type:none;
+}
+
+.rm-dot ul{
+  list-style-type:none;
+}
+
+.rm-dot ul{
+  text-align: left;
+  margin-top: 65px;
+}
