@@ -42,8 +42,12 @@ router.get('/activity-list', function(req,res){
   res.render('activity_list',{title: 'Activity List--TEQIP'});
 });
 
- router.get('/useful-links', function(req,res){
+router.get('/useful-links', function(req,res){
    res.render('useful-links',{title: 'Useful Links--TEQIP'})
  });
+
+router.get('/experts-iit_indore', function(req,res){
+  res.render('experts-iit_indore', {title: 'Experts--TEQIP'})
+});
 
 module.exports = router;

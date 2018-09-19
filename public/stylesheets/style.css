@@ -16,7 +16,7 @@ h1 {
 }
 
 h3{
-  font-size: 2em;
+  font-size: 2.2em;
   font-family: 'Gloria Hallelujah', bold;
   font-weight: bold;
   color: #4786c1;
@@ -47,7 +47,7 @@ p{
 }
 
 .nav-link{
-  font-size: 1.3em;
+  font-size: 1.7em;
   color: #e88a4c!important;
   font-variant: small-caps;
 }
@@ -58,7 +58,9 @@ p{
 }
 
 .navbar-brand{
+  font-size: 1.7em;
   color: #e88a4c!important;
+  font-variant: small-caps;
 }
 
 .navbar-brand:hover{
@@ -75,7 +77,7 @@ p{
 }
 
 .foot{
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-family: 'Merienda', cursive;
 }
 
@@ -89,6 +91,7 @@ p{
 }
 
 .foot-nav li{
+  font-size: 1.3em;
   text-align:right;
   margin-right:20px;
   margin-bottom:10px;
@@ -122,10 +125,10 @@ p{
 }
 
 .rm-dot ul{
-  list-style-type:none;
+  text-align: left;
+  margin-top: 50px;
 }
 
-.rm-dot ul{
-  text-align: left;
-  margin-top: 65px;
+.size14{
+  font-size: 1.4em;
 }
