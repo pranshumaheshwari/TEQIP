@@ -1,35 +1,72 @@
 <% include ./partials/header.ejs %>
-  <div class="col-sm-9">
-    <h3>Events List</h3><br><br>
-    <ul class="size14">
-      <li>
-        <a href="/pdf/events/1.pdf" target="_blank">Faculty Induction Workshop</a>
-      </li>
-      <li>
-        <a href="/pdf/events/2.pdf" target="_blank">Recent Advances in Geotechnical and Structural Engineering</a>
-      </li>
-      <li>
-        <a href="/pdf/events/3.pdf" target="_blank">Introduction to Finite Element Analysis (FEA)</a>
-      </li>
-      <li>
-        <a href="/pdf/events/4.pdf" target="_blank">Bearing and Fault Diagnosis</a>
-      </li>
-      <li>
-        <a href="/pdf/events/5.pdf" target="_blank">Sustainable Water Resources Management under Changing Climate</a>
-      </li>
-      <li>
-        <a href="/pdf/events/6.pdf" target="_blank">Training Program for Senior Faculty on Active Learning</a>
-      </li>
-    </ul><br><br>
-    <h3>Experts</h3><br>
-    <ul class="size14">
-      <li>
-        <a href="/pdf/events/experts.pdf" target="_blank">From Outside</a>
-      </li>
-      <li>
-        <a href="/experts-iit_indore">From IIT Indore</a>
-      </li>
-    </ul>
+<section class="probootstrap-cover">
+ <div class="container">
+   <div class="row probootstrap-vh-75 align-items-center text-left">
+     <div class="col-sm">
+       <div class="probootstrap-text pt-5">
+         <h1 class="probootstrap-heading text-white mb-4">Events</h1>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<section class="probootstrap-section">
+  <div class="container">
+    <div class="mb-5" id="upcomingEvents">
+      <h3 class="probootstrap-heading mb-5">Upcoming Events</h3>
+      <div class="probootstrap-item">
+        <p style="font-size:1.3em" class="ml-4">Coming Soon...</p>
+      </div>
+    </div>
+    <div class="mb-5" id="pastEvents">
+      <h3 class="probootstrap-heading mb-5">Past Events</h3>
+      <ul class="events">
+        <li>
+          <a href="/pdf/events/1.pdf" target="_blank">Faculty Induction Workshop</a>
+        </li>
+        <li>
+          <a href="/pdf/events/2.pdf" target="_blank">Recent Advances in Geotechnical and Structural Engineering</a>
+        </li>
+        <li>
+          <a href="/pdf/events/3.pdf" target="_blank">Introduction to Finite Element Analysis (FEA)</a>
+        </li>
+        <li>
+          <a href="/pdf/events/4.pdf" target="_blank">Bearing and Fault Diagnosis</a>
+        </li>
+        <li>
+          <a href="/pdf/events/5.pdf" target="_blank">Sustainable Water Resources Management under Changing Climate</a>
+        </li>
+        <li>
+          <a href="/pdf/events/6.pdf" target="_blank">Training Program for Senior Faculty on Active Learning</a>
+        </li>
+      </ul>
+    </div>
+    <div class="mb-5" id="experts">
+      <h3 class="probootstrap-heading mb-5">Experts</h3>
+      <ul class="events">
+        <li>
+          <a href="/pdf/events/experts.pdf" target="_blank">From Outside</a>
+        </li>
+        <li>
+          <a href="/experts-iit_indore">From IIT Indore</a>
+        </li>
+      </ul>
+    </div>
+    <a href="/activity-list" class="btn btn-outline-dark">Activity List</a>
   </div>
-<% include ./partials/upcoming.ejs %>
+</section>
+
+<style media="screen">
+.events a{
+  color: #000;
+  opacity: 0.8;
+  font-size: 1.4em;
+}
+.events a:hover{
+  opacity: 0.3;
+  color: #000;
+  margin-left: 10px;
+}
+</style>
 <% include ./partials/footer.ejs %>

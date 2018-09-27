@@ -1,7 +1,19 @@
 <% include ./partials/header.ejs %>
-  <div class="col-sm-9">
-    <h3>Reports</h3><br><br>
-    <ol>
+<section class="probootstrap-cover">
+ <div class="container">
+   <div class="row probootstrap-vh-75 align-items-center text-left">
+     <div class="col-sm">
+       <div class="probootstrap-text pt-5">
+         <h1 class="probootstrap-heading text-white mb-4">Reports</h1>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<section class="probootstrap-section">
+  <div class="container">
+    <ol style="font-size:1.5em;">
       <li><a href="/pdf/reports/Faculty Induction Workshop Report IIT Indore.pdf" target="_blank">Faculty Induction Workshop Report</a></li>
       <li><a href="/pdf/reports/Pressnote TEQIP.pdf" target=”_blank”>Introduction to Finite Element Analysis</a></li>
       <li><a href="/pdf/reports/SHORTCOURSE IIT INDORE.pdf" target=”_blank”>Geotechnical And Structrual Engineering</a></li>
@@ -10,5 +22,18 @@
       <li><a href="/pdf/reports/TEQIP_report_parey.pdf" target=”_blank”>Bearing And Gear Fault Diagnosis</a></li>
     </ol>
   </div>
-<% include ./partials/upcoming.ejs %>
+</section>
+
+<style media="screen">
+  ol li a{
+    color: #000;
+    opacity: 0.8;
+    font-size: 1.1em;
+  }
+  ol li a:hover{
+    opacity: 0.3;
+    color: #000;
+    margin-left: 10px;
+  }
+</style>
 <% include ./partials/footer.ejs %>

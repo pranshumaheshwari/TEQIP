@@ -1,6 +1,18 @@
 <% include ./partials/header.ejs %>
-  <div class="col-sm-9">
-    <h3>Activity List</h3><br><br>
+<section class="probootstrap-cover">
+ <div class="container">
+   <div class="row probootstrap-vh-75 align-items-center text-left">
+     <div class="col-sm">
+       <div class="probootstrap-text pt-5">
+         <h1 class="probootstrap-heading text-white mb-4">Activity List</h1>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<section class="probootstrap-section">
+  <div class="container">
     <ol>
       <li>Faculty engagements including summer/winter internships at IITs and other courses</li>
       <li>Summer/ winter internship (4 weeks) at IIT for UG and PG students from focus states</li>
@@ -15,5 +27,12 @@
       <li>Organizing GATE sensitization orientation workshops at participating institutes through PG/PhD students / faculty of IITs</li>
     </ol>
   </div>
-<% include ./partials/upcoming.ejs %>
+</section>
+
+<style media="screen">
+  ol li{
+    font-size: 1.4em;
+    color: #000;
+  }
+</style>
 <% include ./partials/footer.ejs %>

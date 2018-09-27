@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET Requests. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'TEQIP' });
 });
@@ -22,10 +22,6 @@ router.get('/', function(req, res, next) {
    res.render('events',{title: 'Events--TEQIP'});
  });
 
- router.get('/staff', function(req,res){
-   res.render('staff',{title: 'Staff--TEQIP'});
- });
-
  router.get('/contact', function(req,res){
    res.render('contact',{title: 'Contact--TEQIP'});
  });
@@ -41,10 +37,6 @@ router.get('/', function(req, res, next) {
 router.get('/activity-list', function(req,res){
   res.render('activity_list',{title: 'Activity List--TEQIP'});
 });
-
-router.get('/useful-links', function(req,res){
-   res.render('useful-links',{title: 'Useful Links--TEQIP'})
- });
 
 router.get('/experts-iit_indore', function(req,res){
   res.render('experts-iit_indore', {title: 'Experts--TEQIP'})
