@@ -1,4 +1,4 @@
 # TEQIP
-npm install
-npm start
-localhost:3000 in browser
+npm install <br>
+npm start <br>
+localhost:3000 in browser <br>
