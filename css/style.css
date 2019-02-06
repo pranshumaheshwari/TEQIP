@@ -178,10 +178,18 @@ h1, h2, h3, h4, h5 {
 textarea {
   height: inherit !important; }
 
-.vh-50 {
-  height: 50vh; }
+.vh-60 {
+  height: 60vh; }
   @media screen and (max-width: 768px) {
-    .vh-50 {
+    .vh-60 {
+      height: inherit;
+      padding-top: 5em;
+      padding-bottom: 5em; } }
+
+.vh-40 {
+  height: 40vh; }
+  @media screen and (max-width: 768px) {
+    .vh-40 {
       height: inherit;
       padding-top: 5em;
       padding-bottom: 5em; } }
