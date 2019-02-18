@@ -186,10 +186,10 @@ textarea {
       padding-top: 5em;
       padding-bottom: 5em; } }
 
-.vh-40 {
-  height: 40vh; }
+.vh-45 {
+  height: 45vh; }
   @media screen and (max-width: 768px) {
-    .vh-40 {
+    .vh-45 {
       height: inherit;
       padding-top: 5em;
       padding-bottom: 5em; } }
